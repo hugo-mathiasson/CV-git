@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt CV</title>
+    <link rel="stylesheet" href="..\css\cv_main.css">
+</head>
+<body>
+    <!-- Första diven är bannern längst upp på skärmen som har de olika tabarna man kan gå in på -->
+    <div class="flex-container">
+        <div>
+            <a href="cv_main.html"><img src="..\images\white-home-icon-png-21.png" class="home-icon"/></a>
+        </div>
+        <div class="tabs">
+            <a href="about_me.html" class="text-color"><h1>Vem är jag?</h1></a>
+            <a href="qualifications.html" class="text-color"><h1>Erfarenhet</h1></a>
+            <a href="interests.html" class="text-color"><h1>Intressen</h1></a>
+        </div>
+    </div>
+    <!-- Denna diven är display:flex men har sen en annan div i sig som är flex-direction: column för att knappen för att ladda ner och mina kontakt uppgifter ska lägga sig rätt -->
+    <div class="introduction-div">
+        <img src="..\images\portrait.png" class="portrait"/>
+        <div class="introduction-div-2">
+            <div class="contacts">
+                <!-- Mina kontaktuppgifter ligger i en tabell, det syns inte rikitgt på sidan men här är beviset. -->
+                <table>
+                    <tr>
+                        <td>Namn:</td>
+                        <td>Hugo Mathiasson</td>
+                    </tr>
+                    <tr>
+                        <td>Telefon:</td>
+                        <td>+46 72 515 33 01</td>
+                    </tr>
+                    <tr>
+                        <td>Mail:</td>
+                        <td>mathiasson.hugo@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+            <a href="download.html"><div class="download">
+                <h2 class ="download-text">Ladda ner mitt CV:</h2>
+                <img src="..\images\download-2-xxl.png" class="download-size">
+            </div></a>
+        </div>
+    </div>
+</body>
+</html>

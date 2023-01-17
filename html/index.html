@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="..\css\cv_main.css">
+</head>
+<body>
+    <!-- Bara ett kort formulär som är lite som en check innan man kommer vidare till huvudsidan, tanken är att jag ska få veta vem det är som är intresserad av mitt CV och vilket företag det skulle vara. -->
+    <h1 align="center" class="text-color">Vem är du?</h1>
+    <form class="form">
+        <fieldset class="test">
+            <label for="fName">Förnamn:</label><br>
+            <input type="text" name="fName" id="fName"><br><br>
+            <label for="lName">Efternamn:</label><br>
+            <input type="text" name="lName" id="lName"><br><br>
+            <label for="company">Företag:</label><br>
+            <input type="text" name="company" id="company"><br><br>
+            <label for="mail">E-mail:</label><br>
+            <input type="text" name="mail" id="mail"><br><br>
+            <label for="else">Övrigt:</label><br>
+            <textarea type="text" name="else" id="else"></textarea><br><br>
+        <div class="flex">
+            <input type="submit" value="Submit">
+            <a class="link-color" href="cv_main.html">Gå vidare</a>
+        </div>
+        </fieldset>    
+    </form>
+</body>
+</html>

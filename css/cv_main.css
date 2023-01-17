@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(56, 61, 61);
+    margin: 0;
+}
+
+.text-color{
+    color: whitesmoke;
+}
+
+.flex-container{
+    background-color: rgb(30, 30, 30);
+    height: 120px;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introduction-div{
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.introduction-div-2{
+    flex-direction: column;
+}
+
+.contacts{
+    background-color: rgb(89, 89, 89);
+    width: 300px;
+    margin-left: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-top: 60px;
+}
+
+.portrait{
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 352px;
+    height: 384px; 
+}
+
+.download{
+    width: 340px;
+    background-color: rgb(214, 197, 181);
+    margin-left: 400px;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+}
+
+ .download-text{
+    margin-left: 8px;
+} 
+
+.download-size{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-left: 70px;
+}
+
+.home-icon{
+    width: 90px;
+    height: 90px;
+    margin-left: 15px;
+}
+
+.home{
+    align-items: center;
+}
+
+.tabs{
+    width: 700px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form{
+    color: whitesmoke;
+    width: 500px;
+    margin-left: 34%;
+    border-radius: 10px;
+}
+
+.test{
+    border-radius: 10px;
+    background-color: rgb(30, 30, 30);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-color{
+    color: cyan;
+}

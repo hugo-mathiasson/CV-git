@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://bilder.tn.se/?uuid=1a55ef95-b3d4-5fe2-a0ff-9d2746979c08&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.84375&x=0&y=0&width=1200&height=675");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.text-color{
+    color: whitesmoke;
+}
+
+.flex-container{
+    background-color: rgb(30, 30, 30);
+    height: 120px;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tabs{
+    width: 700px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-icon{
+    width: 90px;
+    height: 90px;
+    margin-left: 15px;
+}
+
+.current{
+    color: cyan;
+}
+
+.border{
+    border-radius: 20px;
+    border: 2px solid #f3f3f3;
+    width: 280px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.content{
+    display: flex;
+}
+
+.content-2{
+    display: block;
+}
+
+.text{
+    background-color: rgb(56, 61, 61);
+    border-radius: 30px;
+    border: 2px solid #f3f3f3;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.paragraph{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+.map{
+    width: 500px;
+    height: 250px;
+    margin-left: 350px;
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 2px solid #f3f3f3;
+}
